@@ -73,7 +73,7 @@ const Results: React.FC = () => {
             <tfoot>
               <tr>
                 <th></th>
-                <th className={classes.cartHighlight}>Total Dsiatnce</th>
+                <th className={classes.cartHighlight}>Total Distance</th>
                 <th className={classes.cartHighlight}>{totalDistance} km</th>
               </tr>
             </tfoot>
