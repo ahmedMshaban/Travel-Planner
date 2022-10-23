@@ -1,0 +1,113 @@
+/* Keep label visiable for the screen readers */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.fieldContainer {
+  margin-bottom: 10px;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  color: var(--black);
+}
+
+.cities .startPointImg,
+.cities .destinationLocationImg {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.cities .citySelector {
+  width: 300px;
+}
+
+.cities:before {
+  background-color: #70757a;
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 8.5px;
+}
+
+.cities [role="alert"] {
+  width: 300px;
+}
+
+.cities .bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border-radius: 50%;
+  background: var(--black);
+  position: absolute;
+  left: 5.5px;
+  top: 25px;
+  border: 1px solid #fff;
+}
+
+.destinationSection:last-child .cities {
+  padding-bottom: 0;
+}
+
+.destinationSection:last-child .bullet {
+  border-radius: 0;
+  background: var(--black);
+}
+
+.destinationSection .bullet {
+  background: var(--primary-4);
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+button:hover {
+  justify-content: center;
+  border-radius: 50%;
+  background: #f8f8f8;
+}
+
+button img {
+  width: 20px;
+}
+
+.add {
+  position: relative;
+  background: transparent;
+}
+
+.add:hover {
+  background: transparent;
+}
+
+.add img {
+  border-radius: 50%;
+  background: #f8f8f8;
+  padding: 5px;
+  width: 30px;
+}

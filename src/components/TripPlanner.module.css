@@ -1,0 +1,55 @@
+.form input {
+  border: 1px solid #70757a;
+  height: 40px;
+  border-radius: 0 0 3px 3px;
+  padding: 2px 3px;
+  width: 100%;
+}
+
+form input[aria-invalid="true"] {
+  border: 1px solid  rgb(191, 22, 80);
+}
+
+.form label {
+  display: block;
+  border-radius: 3px 3px 0px 0px;
+  width: 100%;
+  background-color: var(--primary-2);
+  padding: 7px;
+  height: 37px;
+  text-align: center;
+  font-size: 18px;
+}
+
+form .submit {
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  border: 0;
+  transition: background-color 200ms, color 200ms;
+  color: var(--white);
+  background-color: var(--primary-1);
+}
+
+form .submit:active {
+  background-color: var(--primary-3);
+}
+
+form .submit[disabled] {
+  background-color: var(--primary-4);
+  cursor: default;
+}
+
+
+form span[role=alert] {
+    background-color: rgb(255, 250, 236);
+    color: rgb(211, 158, 0);
+    border: 1px solid rgb(255, 193, 7);
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+}

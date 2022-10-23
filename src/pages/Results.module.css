@@ -1,0 +1,76 @@
+h1 {
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table thead {
+  background-color: var(--primary-1);
+  color: white;
+  border: 1px solid white;
+  border-top: 0;
+}
+
+.table.tableDistance thead {
+  background-color: var(--accent-1);
+}
+
+.table th:nth-child(1),
+.table th:nth-child(2) {
+  width: 40%;
+}
+
+.table th {
+  padding: 15px;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.table tbody {
+  font-size: 18px;
+  border: 1px solid white;
+}
+
+.tableDistance {
+  text-align: center;
+}
+.tableDistance tbody td:first-child {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.table tbody tr:nth-child(2n) {
+  background-color: var(--white);
+}
+
+.table tbody tr:nth-child(2n + 1) {
+  background-color: var(--neutral-1);
+}
+
+.cartHighlight {
+  background-color: var(--primary-1);
+  color: white;
+}
+
+.loader {
+  text-align: center;
+  margin: 50px;
+}
+
+.notFound {
+  text-align: center;
+} 
+
+.notFound img {
+  width: 180px;
+}

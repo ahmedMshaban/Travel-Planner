@@ -1,0 +1,41 @@
+body {
+  background: #eeeeee;
+}
+
+.notFoundLayout {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  place-items: center;
+  grid-gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 70vh;
+}
+
+.notFoundLayout h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.notFoundLayout h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.notFoundLayout p {
+  font-size: 18px;
+  color: #727272;
+  margin: 18px 0;
+}
+
+.notFoundLayout img {
+  width: 300px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .notFoundLayout {
+    grid-template-columns: 1fr;
+  }
+}

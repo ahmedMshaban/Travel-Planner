@@ -1,0 +1,15 @@
+.header {
+  box-shadow: 0 0 3px #dddddd;
+  border-bottom: 1px solid #dddddd;
+  height: 51px;
+  text-align: center;
+}
+
+.header  img {
+  height: 51px;
+  margin: 0 auto;
+}
+
+.header  a {
+  display: inline-block;
+}
